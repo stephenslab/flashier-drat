@@ -6,3 +6,12 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: flashier
+Version: 0.2.34
+Depends: R (>= 3.4), magrittr
+Imports: Matrix, ebnm (>= 0.1-21), parallel, softImpute, irlba
+Suggests: testthat, knitr, rmarkdown, NNLM
+License: BSD_3_clause + file LICENSE
+MD5sum: a0fe7be25146085fa218206f1c009d6f
+NeedsCompilation: no
